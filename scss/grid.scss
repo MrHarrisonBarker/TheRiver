@@ -1,0 +1,28 @@
+$width: 100%;
+$conWidth: 96%;
+
+.container {
+  display: flex;
+  width: $conWidth;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  position: relative;
+  display: flex;
+  width: $width;  
+}
+.box {
+  height: 200px;  
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} { 
+    flex-basis: ( ( $width / 12 ) * $i );
+    box-sizing: border-box;
+  }
+}
+
+@for $i from 1 through 12 {
+  #col-1-#{$i} { background-color: rgb(random(255),random(255),random(255)); }
+}
