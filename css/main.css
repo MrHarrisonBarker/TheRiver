@@ -1,0 +1,40 @@
+html {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+a {
+  color: #212121;
+}
+
+.BrandTitle {
+  text-align: center;
+  margin: auto auto auto auto;
+}
+
+.date {
+  vertical-align: bottom;
+}
+
+.ThinHr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.HeavykHr {
+  border-color: #212121;
+}
+
+.ThinNav {
+  line-height: 50%;
+}
+
+.Date {
+  padding-left: 1rem;
+}
+
+.FooterText {
+  padding-left: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */

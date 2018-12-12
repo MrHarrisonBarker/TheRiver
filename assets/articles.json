@@ -1,0 +1,60 @@
+{
+  "Stories": [
+    {
+      "@type": "NewsArticle",
+      "headline": "Article headline",
+      "alternativeHeadline": "An alternative headline, if need be",
+      "dateline": "London, UK",
+      "image": [
+        "http://www.example.com/image1.jpg",
+        "http://www.example.com/image2.jpg"
+      ],
+      "datePublished": "2015-09-05",
+      "description": "An article that will hopefully be seen in Google News",
+      "articleBody": "Paste the whole mess of code in here",
+      "author": "Harrison Barker"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Another Article headline",
+      "alternativeHeadline": "Another An alternative headline, if need be",
+      "dateline": "London, UK",
+      "image": [
+        "http://www.example.com/image1.jpg",
+        "http://www.example.com/image2.jpg"
+      ],
+      "datePublished": "2017-09-05",
+      "description": "Another An article that will hopefully be seen in Google News",
+      "articleBody": "Another Paste the whole mess of code in here",
+      "author": "Harrison Barker"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "AnotherAnother Article headline",
+      "alternativeHeadline": "AnotherAnother An alternative headline, if need be",
+      "dateline": "London, UK",
+      "image": [
+        "http://www.example.com/image1.jpg",
+        "http://www.example.com/image2.jpg"
+      ],
+      "datePublished": "2017-09-05",
+      "description": "AnotherAnother An article that will hopefully be seen in Google News",
+      "articleBody": "AnotherAnother Paste the whole mess of code in here",
+      "author": "Harrison Barker"
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "AlsoAnotherAnother Article headline",
+      "alternativeHeadline": "AlsoAnotherAnother An alternative headline, if need be",
+      "dateline": "London, UK",
+      "image": [
+        "http://www.example.com/image1.jpg",
+        "http://www.example.com/image2.jpg"
+      ],
+      "datePublished": "2017-09-05",
+      "description": "AlsoAnotherAnother An article that will hopefully be seen in Google News",
+      "articleBody": "AlsoAnotherAnother Paste the whole mess of code in here",
+      "author": "Harrison Barker"
+    }
+  ]
+}
