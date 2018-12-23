@@ -1,0 +1,461 @@
+{
+  "player": [
+    {
+      "Id": "DanielNegreanu",
+      "Name": "Daniel Negreanu 🇨🇦",
+      "NickName": "Kid Poker",
+      "BiggestWin": "$8,288,001",
+      "BiggestWinNumber": "8288001",
+      "TotalWinning": "$38,663,630",
+      "TotalWinningNumber": 38663630,
+      "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Sponsorship": "PokerStars",
+      "Image": "./assets/daniel-negreanu.jpg",
+      "Social": [
+        {
+          "Image": "./assets/Twitter_Social_Icon_Square_Color.png",
+          "Link": "https://twitter.com/RealKidPoker"
+        },
+        {
+          "Image": "./assets/instagram.png",
+          "Link": "https://www.instagram.com/dnegspoker/"
+        }
+      ],
+      "ExtendedBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "WSOPBracelets": [
+        {
+          "Year": 1998,
+          "Event": "$2,000 Pot-Limit Hold'em",
+          "Prize": "$169,460"
+        },
+        {
+          "Year": 2003,
+          "Event": "$2,000 S.H.O.E.",
+          "Prize": "$100,440"
+        },
+        {
+          "Year": 2004,
+          "Event": "$2,000 Limit Hold'em",
+          "Prize": "$169,100"
+        },
+        {
+          "Year": 2008,
+          "Event": "$2,000 Limit Hold'em",
+          "Prize": "$204,874"
+        },
+        {
+          "Year": 2013,
+          "Event": "A$10,000 No Limit Hold'em Main Event",
+          "Prize": "$730,640"
+        },
+        {
+          "Year": 2013,
+          "Event": "€25,600 High Roller No Limit Hold'em",
+          "Prize": "$825,303"
+        }
+      ],
+      "TourneyWins": [
+        {
+          "Year": 2004,
+          "Event": "$10,000 Borgata Poker Open",
+          "Tournament": "World Poker Tour",
+          "Prize": "$1,117,400"
+        },
+        {
+          "Year": 2004,
+          "Event": "$15,000 Five Diamond World Poker Classic",
+          "Tournament": "World Poker Tour",
+          "Prize": "$1,795,218"
+        },
+        {
+          "Year": 2013,
+          "Event": "$5,200 PL Omaha [6-Max]",
+          "Tournament": "SCOOP",
+          "Prize": "$216,000"
+        },
+        {
+          "Year": 2016,
+          "Event": "$2,100 HORSE Championship $200K GTD",
+          "Tournament": "WCOOP",
+          "Prize": "$61,865.47"
+        }
+      ],
+      "Books": [
+        {
+          "Name": "Hold'em Wisdom for all Players",
+          "Year": 2007
+        },
+        {
+          "Name": "Power Hold'em Strategy",
+          "Year": 2008
+        },
+        {
+          "Name": "More Hold'em Wisdom for all Players",
+          "Year": 2008
+        }
+      ]
+    },
+    {
+      "Id": "PhilIvey",
+      "Name": "Phil Ivey 🇺🇸",
+      "NickName": "Tiger Woods",
+      "BiggestWin": "$3,573,600",
+      "BiggestWinNumber": "3573600",
+      "TotalWinning": "$25,924,184",
+      "TotalWinningNumber": 25924184,
+      "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Sponsorship": "",
+      "Image": "./assets/phil-ivey.jpg",
+      "Social": [
+        {
+          "Image": "./assets/Twitter_Social_Icon_Square_Color.png",
+          "Link": "https://twitter.com/philivey"
+        },
+        {
+          "Image": "./assets/instagram.png",
+          "Link": "https://www.instagram.com/philivey/"
+        }
+      ],
+      "ExtendedBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "WSOPBracelets": [
+        {
+          "Year": 2000,
+          "Event": "$2,500 Pot Limit Omaha",
+          "Prize": "$195,000"
+        },
+        {
+          "Year": 2002,
+          "Event": "$2,500 7 Card Stud Hi/Lo",
+          "Prize": "$118,440"
+        },
+        {
+          "Year": 2002,
+          "Event": "$2,000 S.H.O.E",
+          "Prize": "$107,540"
+        },
+        {
+          "Year": 2002,
+          "Event": "$1,500 7 Card Stud",
+          "Prize": "$132,000"
+        },
+        {
+          "Year": 2005,
+          "Event": "$5,000 Pot Limit Omaha",
+          "Prize": "$635,603"
+        },
+        {
+          "Year": 2009,
+          "Event": "$2,500 No-Limit 2-7 Draw Lowball",
+          "Prize": "$96,367"
+        },
+        {
+          "Year": 2009,
+          "Event": "$2,500 Omaha Hi/Lo / 7 Card Stud Hi/Lo",
+          "Prize": "$220,538"
+        },
+        {
+          "Year": 2010,
+          "Event": "$3,000 H.O.R.S.E.",
+          "Prize": "$329,840"
+        },
+        {
+          "Year": 2013,
+          "Event": "A$2,200 Mixed Event",
+          "Prize": "A$51,840"
+        },
+        {
+          "Year": 2014,
+          "Event": "$1,500 Eight Game Mix",
+          "Prize": "$166,986"
+        }
+      ],
+      "TourneyWins": [
+        {
+          "Year": 2008,
+          "Event": "$10,000 L.A. Poker Classic",
+          "Tournament": "World Poker Tour",
+          "Prize": "$1,596,100"
+        }
+      ]
+    },
+    {
+      "Id": "TonyG",
+      "Name": "Tony G 🇱🇹",
+      "NickName": "",
+      "BiggestWin": "$456,822",
+      "BiggestWinNumber": "456822",
+      "TotalWinning": "$4,958,463",
+      "TotalWinningNumber": 4958463,
+      "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Sponsorship": "TonyBet",
+      "Image": "./assets/tony-g.png",
+      "Social": [
+        {
+          "Image": "./assets/Twitter_Social_Icon_Square_Color.png",
+          "Link": "https://twitter.com/tonyguoga"
+        }
+      ],
+      "ExtendedBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "TourneyWins": [
+        {
+          "Year": 2006,
+          "Event": "Bad Boys of Poker II",
+          "Tournament": "WPT",
+          "Prize": "$25,000"
+        }
+      ]
+    },
+    {
+      "Id": "TomDwan",
+      "Name": "Tom Dwan 🇺🇸",
+      "NickName": "Durrr",
+      "BiggestWin": "$446,700",
+      "BiggestWinNumber": "446700",
+      "TotalWinning": "$2,837,098",
+      "TotalWinningNumber": 2837098,
+      "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Sponsorship": "",
+      "Image": "./assets/tom-dwan.jpeg",
+      "Social": [
+        {
+          "Image": "./assets/Twitter_Social_Icon_Square_Color.png",
+          "Link": "https://twitter.com/tomdwan"
+        },
+        {
+          "Image": "./assets/instagram.png",
+          "Link": "instagram.com/durrrrswife"
+        }
+      ],
+      "ExtendedBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "Id": "PhilHellmuth",
+      "Name": "Phil Hellmuth 🇺🇸",
+      "NickName": "The Poker Brat",
+      "BiggestWin": "$2,645,333",
+      "TotalWinning": "$22,145,540",
+      "TotalWinningNumber": 22145540,
+      "BiggestWinNumber": "2645333",
+      "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Sponsorship": "",
+      "Image": "./assets/Phil-Hellmuth.jpg",
+      "Social": [
+        {
+          "Image": "./assets/Twitter_Social_Icon_Square_Color.png",
+          "Link": "https://twitter.com/phil_hellmuth"
+        }
+      ],
+      "ExtendedBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "WSOPBracelets": [
+        {
+          "Year": "1989",
+          "Tournament": "$10,000 No Limit Hold'em World Championship",
+          "Prize": "$755,000"
+        },
+        {
+          "Year": "1992",
+          "Tournament": "$5,000 Limit Hold'em",
+          "Prize": "$168,000"
+        },
+        {
+          "Year": "1993",
+          "Tournament": "$1,500 No Limit Hold'em",
+          "Prize": "$161,400"
+        },
+        {
+          "Year": "1993",
+          "Tournament": "$2,500 No Limit Hold'em",
+          "Prize": "$173,000"
+        },
+        {
+          "Year": "1993",
+          "Tournament": "$5,000 Limit Hold'em",
+          "Prize": "$138,000"
+        },
+        {
+          "Year": "1997",
+          "Tournament": "$3,000 Pot Limit Hold'em",
+          "Prize": "$204,000"
+        },
+        {
+          "Year": "2001",
+          "Tournament": "$2,000 No Limit Hold'em",
+          "Prize": "$316,550"
+        },
+        {
+          "Year": "2003",
+          "Tournament": "$2,500 Limit Hold'em",
+          "Prize": "$171,400"
+        },
+        {
+          "Year": "2003",
+          "Tournament": "$3,000 No Limit Hold'em",
+          "Prize": "$410,860"
+        },
+        {
+          "Year": "2006",
+          "Tournament": "$1,000 No Limit Hold'em with rebuys",
+          "Prize": "$631,863"
+        },
+        {
+          "Year": "2007",
+          "Tournament": "$1,500 No Limit Hold'em",
+          "Prize": "$637,254"
+        },
+        {
+          "Year": "2012",
+          "Tournament": "$2,500 Seven-Card Razz",
+          "Prize": "$182,793"
+        },
+        {
+          "Year": "2012E",
+          "Tournament": "€10,450 No Limit Hold'em Main Event",
+          "Prize": "€1,022,376"
+        },
+        {
+          "Year": "2015",
+          "Tournament": "$10,000 Seven-Card Razz",
+          "Prize": "$271,105"
+        },
+        {
+          "Year": "2018",
+          "Tournament": "$5,000 No Limit Hold'em",
+          "Prize": "$485,082"
+        }
+      ]
+    },
+    {
+      "Id": "VictoriaCoren",
+      "Name": "Victoria Coren 🇬🇧",
+      "NickName": "",
+      "BiggestWin": "$657,780",
+      "BiggestWinNumber": "657780",
+      "TotalWinning": "$1,927,063",
+      "TotalWinningNumber": 1927063,
+      "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Sponsorship": "PokerStars",
+      "Image": "./assets/victoria-coren.jpeg",
+      "Social": [
+        {
+          "Image": "./assets/Twitter_Social_Icon_Square_Color.png",
+          "Link": "https://twitter.com/VictoriaCoren"
+        }
+      ],
+      "ExtendedBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "TourneyWins": [
+        {
+          "Year": 2006,
+          "Event": "London £3,500 Main Event",
+          "Tournament": "EPT",
+          "Prize": "£500,000"
+        },
+        {
+          "Year": 2012,
+          "Event": "Grand Final, Monte Carlo €5,000 Heads-Up",
+          "Tournament": "EPT",
+          "Prize": "€58,900"
+        }
+      ]
+    },
+    {
+      "Id": "LivBoeree",
+      "Name": "Liv Boeree 🇬🇧",
+      "NickName": "The Iron Maiden",
+      "BiggestWin": "$1,673,433",
+      "BiggestWinNumber": "1673433",
+      "TotalWinning": "$3,570,051",
+      "TotalWinningNumber": 3570051,
+      "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Sponsorship": "PokerStars",
+      "Image": "./assets/liv-boeree.jpg",
+      "Social": [
+        {
+          "Image": "./assets/Twitter_Social_Icon_Square_Color.png",
+          "Link": "https://twitter.com/liv_boeree"
+        },
+        {
+          "Image": "./assets/instagram.png",
+          "Link": "http://www.instagram.com/liv_boeree"
+        }
+      ],
+      "ExtendedBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "WSOPBracelets": [
+        {
+          "Year": "2017",
+          "Event": "$10,000 Tag Team No Limit Hold'em Championship",
+          "Prize": "$273,964"
+        }
+      ],
+      "TourneyWins": [
+        {
+          "Year": 2010,
+          "Event": "Sanremo, €5,000 Main Event",
+          "Tournament": "EPT",
+          "Prize": "$1,698,300"
+        }
+      ]
+    },
+    {
+      "Id": "VanessaSelbst",
+      "Name": "Vanessa Selbst 🇺🇸",
+      "NickName": "V. Selbst",
+      "BiggestWin": "$1,823,430",
+      "BiggestWinNumber": "1823430",
+      "TotalWinning": "$10,844,334",
+      "TotalWinningNumber": 10844334,
+      "Bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Sponsorship": "PokerStars",
+      "Image": "./assets/vanessa-selbst.jpeg",
+      "Social": [
+        {
+          "Image": "./assets/Twitter_Social_Icon_Square_Color.png",
+          "Link": "http://www.twitter.com/vanessaselbst"
+        }
+      ],
+      "ExtendedBio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "WSOPBracelets": [
+        {
+          "Year": "2008",
+          "Event": "$1,500 Pot-Limit Omaha",
+          "Prize": "$227,933"
+        },
+        {
+          "Year": "2012",
+          "Event": "$2,500 10-Game Mix – Six-Handed",
+          "Prize": "$244,259"
+        },
+        {
+          "Year": "2014",
+          "Event": "$25,000 Mixed-Max No-Limit Hold'em",
+          "Prize": "$871,148"
+        }
+      ],
+      "TourneyWins": [
+        {
+          "Year": 2008,
+          "Event": "World Poker Finals $1,850 No Limit Hold'em",
+          "Tournament": "WPT",
+          "Prize": "$115,000"
+        },
+        {
+          "Year": 2008,
+          "Event": "L.A. Poker Classic $1,000 Ladies Championship",
+          "Tournament": "WPT",
+          "Prize": "$26,500"
+        },
+        {
+          "Year": 2009,
+          "Event": "World Poker Finals $1,850 No Limit Hold'em",
+          "Tournament": "WPT",
+          "Prize": "$74,224"
+        },
+        {
+          "Year": 2012,
+          "Event": "L.A. Poker Classic $5,100 No Limit Hold'em",
+          "Tournament": "WPT",
+          "Prize": "$140,295"
+        }
+      ]
+    }
+  ]
+}

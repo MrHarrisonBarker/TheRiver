@@ -21,7 +21,7 @@ a {
   margin-bottom: 0.5rem;
 }
 
-.HeavykHr {
+.HeavyHr {
   border-color: #212121;
 }
 
@@ -33,12 +33,42 @@ a {
   padding-left: 1rem;
 }
 
-.FooterText {
-  padding-left: 1rem;
+.Live {
+  padding-right: 1rem;
 }
 
 .ThinText {
   font-weight: 300;
+}
+
+.FillSpace {
+  width: 100%;
+}
+
+.PlayerImage {
+  width: 200px;
+}
+
+.SocialImage {
+  width: 30px;
+}
+
+.Chart {
+  display: none;
+}
+
+.MediaImage {
+  width: 64px;
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 54px;
+}
+#footer .FooterBlock {
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=main.css.map */

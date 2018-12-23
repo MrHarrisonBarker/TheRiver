@@ -24,6 +24,7 @@
 
     <script src="js/main.js"></script>
     <script src="js/BlindsApp.js"></script>
+    <script src="js/Outs.js"></script>
 
     <title>The River</title>
     <link rel="shortcut icon" type="image/png" href="assets/Poker-Chip-Stack.png"/>
@@ -31,7 +32,7 @@
 <body>
 
 <script id="Blinds-Template" type="text/x-handlebars-template">
-
+    <hr class="ThinHr">
     <table class="table table-bordered ">
         <thead>
         <tr>
@@ -86,15 +87,29 @@
                     <a class="nav-link" href="links.html">Links</a>
                 </li>
             </ul>
-            <hr class="ThinHr HeavykHr"/>
+            <hr class="ThinHr HeavyHr"/>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <small class="Date" id="date"></small>
+            <div class="clear-fix">
+                <small class="Date float-left" id="date"></small>
+                <small class="Live float-right" style="color:red">Other cool 'live' info</small>
+            </div>
         </div>
+    </div>
+    <div class="row">
         <div class="col">
-            <small style="color:red">Other cool 'live' info</small>
+            <hr class="ThinHr HeavyHr"/>
+            <h3 class="ThinText px-3">Blinds Calculator</h3>
+            <hr class="ThinHr"/>
+        </div>
+    </div>
+    <div class="row px-3">
+        <div class="col">
+            <p class="my-auto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
         </div>
     </div>
     <div class="row">
@@ -102,24 +117,26 @@
             <hr class="ThinHr"/>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <form class="form-inline my-2">
-                <!--<div class="form-group">-->
-                    <label class="sr-only" for="StartingChipsInput">Starting chips</label>
-                    <input type="number" class="form-control mb-2 mr-sm-2" id="StartingChipsInput" name="StartingChipsInput" placeholder="Starting chips">
-                <!--</div>-->
-                <!--<div class="form-group">-->
+    <div class="row px-3">
+            <!-- <form class="form-inline my-2"> -->
+                <!-- <div class="col col-sm-1 col-md-1 col-lg-1 col-xl-1"></div> -->
+                <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <label class="sr-only" for="StartingChipsInput">Starting chips</label>
+                        <input type="number" class="form-control" id="StartingChipsInput" name="StartingChipsInput" placeholder="Starting chips">
+                </div>
+                <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
                     <label class="sr-only" for="LengthOfTournyInput">Length of Tourny</label>
-                    <input type="number" class="form-control mb-2 mr-sm-2" id="LengthOfTournyInput" name="LengthOfTournyInput" placeholder="Length">
-                <!--</div>-->
-                <!--<div class="form-group">-->
+                    <input type="number" class="form-control" id="LengthOfTournyInput" name="LengthOfTournyInput" placeholder="Length">
+                </div>
+                <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
                     <label class="sr-only" for="BlindPeriodInput">Blind period</label>
-                    <input type="number" class="form-control mb-2 mr-sm-2" id="BlindPeriodInput" name="BlindPeriodInput" placeholder="Period">
-                <!--</div>-->
-                <button type="button" class="btn btn-primary mb-2" id="BlindFormSubmit">Submit</button>
-            </form>
-        </div>
+                    <input type="number" class="form-control" id="BlindPeriodInput" name="BlindPeriodInput" placeholder="Period">
+                </div>
+                <div class="col col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <button type="button" class="btn btn-dark btn-block" id="BlindFormSubmit">Submit</button>
+                </div>
+                <!-- <div class="col col-sm-1 col-md-1 col-lg-1 col-xl-1"></div> -->
+            <!-- </form> -->
     </div>
     
     <div class="row">
@@ -127,21 +144,16 @@
             <div class="Blinds-Table-Placeholder"></div>
         </div>
     </div>
-    
-    <footer>
-        <div class="row">
-            <div class="col">
-                <hr class="ThinHr HeavykHr"/>
-                <div class="mb-2">
-                    <small class="text-muted FooterText">
-                        The River &copy; Copyright 2018-2019 Example Corporation
-                    </small>
-                </div>
-            </div>
-        </div>
-    </footer>
 
 </div>
+    
+                    
+<!--<div id="footer">-->
+    <!--<div class="container my-auto">-->
+        <!--<hr class="ThinHr HeavyHr"/>-->
+        <!--<p class="text-muted FooterBlock">The River &copy; Copyright 2018-2019 Example Corporation</p>-->
+    <!--</div>-->
+<!--</div>-->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
