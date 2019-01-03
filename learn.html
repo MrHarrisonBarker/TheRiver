@@ -1,23 +1,22 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 
     <!--Main css styles-->
     <link rel="stylesheet" href="css/main.css">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
@@ -29,166 +28,222 @@
     <script src="js/Learn.js"></script>
 
     <title>The River</title>
-    <link rel="shortcut icon" type="image/png" href="assets/Poker-Chip-Stack.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/Poker-Chip-Stack.png" />
 </head>
+
 <body>
 
-<script id="hands-template" type="text/x-handlebars-template">
-    {{#each hands}}
+    <script id="hands-template" type="text/x-handlebars-template">
+        {{#each hands}}
     <div class="row">
         <div class="col">
-            <h5 class="text-center ThinText">{{title}}</h5>
+            <h5 class="text-center ThinText my-auto">{{title}}</h5>
         </div>
     </div>
     <div class="row">
-        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
-        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+        <div class="col-lg-1 col-xl-1"></div>
+        <div class="col">
             <img src="{{first}}" class="img-fluid">
         </div>
-        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+        <div class="col">
             <img src="{{second}}" class="img-fluid">
         </div>
-        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+        <div class="col">
             <img src="{{third}}" class="img-fluid">
         </div>
-        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+        <div class="col">
             <img src="{{fourth}}" class="img-fluid">
         </div>
-        <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+        <div class="col">
             <img src="{{fifth}}" class="img-fluid">
         </div>
-        <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 "></div>
+        <div class="col-lg-1 col-xl-1 "></div>
     </div>
     {{/each}}
 </script>
 
-<div class="container">
-    <div class="row align-items-center">
-        <div class="col">
-            <div class="display-2 BrandTitle">
-                The River
-                <img class="img" src="assets/Poker-Chip-Stack.png" height="80px"/>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="display-2 BrandTitle">
+                    The River
+                    <img class="img" src="assets/Poker-Chip-Stack.png" height="80px" />
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            <hr class="ThinHr"/>
-            <ul class="nav justify-content-center ThinNav ThinText">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tools.html">Tools</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="news.html">News</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="learn.html">Learn</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="players.html">Players</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tournaments.html">Tournaments</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="links.html">Links</a>
-                </li>
-            </ul>
-            <hr class="ThinHr HeavyHr"/>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="clear-fix">
-                <small class="Date float-left" id="date"></small>
-                <small class="Live float-right" style="color:red">Other cool 'live' info</small>
+        <div class="row">
+            <div class="col-12">
+                <hr class="ThinHr" />
+                <ul class="nav justify-content-center ThinNav ThinText">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tools.html">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="learn.html">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="players.html">Players</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tournaments.html">Tournaments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="links.html">Links</a>
+                    </li>
+                </ul>
+                <hr class="ThinHr HeavyHr" />
             </div>
         </div>
-    </div>
-    <div class="row">           
-        <div class="col">
-            <hr class="ThinHr HeavyHr"/>
-            <h3 class="ThinText px-3">Rules</h3>
-            <hr class="ThinHr"/>
-        </div>
-    </div>
-    <div class="row my-2 no-gutters">
-        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 my-2 InfoCard">
-            <div class="mx-1 py-1 px-2 bg-white shadow-sm" id="test">
-                <h5 class="text-center ThinText">Pre-Flop</h5>
-                <hr class="ThinHr"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="row">
+            <div class="col">
+                <div class="clear-fix">
+                    <small class="Date float-left" id="date"></small>
+                    <small class="Live float-right" style="color:red">Other cool 'live' info</small>
+                </div>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 my-2 InfoCard">
-            <div class="mx-1 py-1 px-2 bg-white shadow-sm">
-                <h5 class="text-center ThinText">Flop</h5>
-                <hr class="ThinHr"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="row">
+            <div class="col">
+                <hr class="ThinHr HeavyHr" />
+                <h3 class="ThinText px-3">Rules</h3>
+                <hr class="ThinHr" />
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 my-2 InfoCard">
-            <div class="mx-1 py-1 px-2 bg-white shadow-sm">
-                <h5 class="text-center ThinText">Turn</h5>
-                <hr class="ThinHr"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="row">
+            <div class="col">
+                <p class="px-3">
+                    <b>Setup : </b>Each player is delt two cards face down (Hole cards).
+                </p>
+                <p class="px-3">
+                    <b>Betting : </b>There is four betting rounds in poker (Pre-Flop, Flop, Turn, River), the player to
+                    the left of the big blind will always start the betting. Each player has to match the highest bet
+                    put into the pot or fold their hand.
+                </p>
             </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 my-2 InfoCard">
-            <div class="mx-1 py-1 px-2 bg-white shadow-sm">
-                <h5 class="text-center ThinText">River</h5>
-                <hr class="ThinHr"/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="row my-2 no-gutters">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 my-2 InfoCard">
+                <div class="mx-1 py-1 px-2">
+                    <h5 class="text-center ThinText">Pre-Flop</h5>
+                    <hr class="ThinHr" />
+                    <p>
+                        The pre-flop betting round begins as soon as all players have received their hole cards, before
+                        any community cards have been dealt.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 my-2 InfoCard">
+                <div class="mx-1 py-1 px-2">
+                    <h5 class="text-center ThinText">Flop</h5>
+                    <hr class="ThinHr" />
+                    <p>
+                        The flop occurs after the first three community cards are dealt.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 my-2 InfoCard">
+                <div class="mx-1 py-1 px-2">
+                    <h5 class="text-center ThinText">Turn</h5>
+                    <hr class="ThinHr" />
+                    <p>
+                        The turn occurs after the fourth community card.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 my-2 InfoCard">
+                <div class="mx-1 py-1 px-2">
+                    <h5 class="text-center ThinText">River</h5>
+                    <hr class="ThinHr" />
+                    <p>
+                        The river occurs after the fifth and final community card
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <hr class="ThinHr HeavyHr"/>
-            <h4 class="ThinText" style="padding-left: 1rem">Hand rankings</h4>
-            <hr class="ThinHr"/>
+        <div class="row">
+            <div class="col">
+                <p class="px-3">
+                    <b>Check : </b>To check is to decline the opportunity to open the betting. Players can only check
+                    when there is no bet during the current round, and the act of checking passes the action clockwise
+                    to the next person in the hand. If all active players check, those players remain in the hand and
+                    the round is considered complete.
+                </p>
+                <p class="px-3">
+                    <b>Bet : </b>Players may bet if no other players have bet during the current round. Once a bet has
+                    been made, other players must ‘call’ by matching the amount bet, in order to remain in the hand.
+                </p>
+                <p class="px-3">
+                    <b>Fold : </b>Players who fold forfeit their cards and cannot win or act again during the current
+                    hand.
+                </p>
+                <p class="px-3">
+                    <b>Call : </b>Players can call if other players have bet during the current round; this requires
+                    the calling player to match the highest bet made.
+                </p>
+                <p class="px-3">
+                    <b>Raise : </b>Players may raise if other players have bet during the current round; this requires
+                    the raising player to match the highest bet made, and then make a greater one. All subsequent
+                    players are required to call the raise or raise again (‘re-raise’) to stay in the hand.
+                </p>
+                <h5 class="px-3">Betting limits</h5>
+                <ul>
+                    <li>
+                        <p>
+                            No Limit – in poker games with a no limit betting structure, each player can bet or raise
+                            by any amount up to and including their full stack (the total number of chips they possess
+                            at any given time) in any betting round, whenever it is their turn to act.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Pot Limit – in poker games with a pot limit betting structure, each player can bet or raise
+                            by any amount up to and including the size of the total pot at that time.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Fixed Limit – in poker games with a fixed limit betting structure, each player can choose
+                            to call, bet or raise, but only by a fixed amount. The fixed amount for any given betting
+                            round is set in advance.
+                        </p>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col">
+                <hr class="ThinHr HeavyHr" />
+                <h4 class="ThinText" style="padding-left: 1rem">Hand rankings</h4>
+                <hr class="ThinHr" />
+            </div>
+        </div>
 
-    <div class="hands-placeholder"></div>
+        <div class="hands-placeholder"></div>
 
-</div>
-
-    <!--<footer>-->
-        <!--<div class="row">-->
-            <!--<div class="col">-->
+        <div class="row">
+            <div class="col">
+                <hr class="ThinHr HeavyHr" </div> </div> </div> <!--<footer>-->
+                <!--<div class="row">-->
+                <!--<div class="col">-->
                 <!--<hr class="ThinHr HeavyHr"/>-->
                 <!--<div class="mb-2">-->
-                    <!--<small class="text-muted FooterText">-->
-                        <!--The River &copy; Copyright 2018-2019 Example Corporation-->
-                    <!--</small>-->
+                <!--<small class="text-muted FooterText">-->
+                <!--The River &copy; Copyright 2018-2019 Example Corporation-->
+                <!--</small>-->
                 <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</footer>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</footer>-->
 
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                    crossorigin="anonymous"></script>
 </body>
+
 </html>

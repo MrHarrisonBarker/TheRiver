@@ -53,6 +53,23 @@ a {
   width: 30px;
 }
 
+.SocialIcon {
+  width: 20px;
+  fill: black;
+}
+
+#Instagram:hover {
+  fill: #D63086;
+}
+
+#Facebook:hover {
+  fill: #4267B2;
+}
+
+#Twitter:hover {
+  fill: #1DA1F2;
+}
+
 .Chart {
   display: none;
 }
