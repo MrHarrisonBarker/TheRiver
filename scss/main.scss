@@ -1,12 +1,85 @@
+@import 'themes.scss';
+
+@mixin themify($themes: $themes) {
+  @each $theme, $map in $themes {
+
+    .theme-#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), '#{$key}');
+        $theme-map: map-merge($theme-map, ($key: $value)) !global;
+      }
+
+      @content;
+      $theme-map: null !global;
+    }
+
+  }
+}
+
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+
 $DarkTextColour: rgb(33, 33, 33);
-$height-footer: 54px;
+$height-footer: 54px; 
+
+.app-container {
+  @include themify($themes) {
+    color: themed('textColour');  
+    background-color: themed('backgroundColour');  
+
+    a {
+      color: themed('textColour');
+    }
+
+    .ThinHr {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-color: themed('hrColour');
+    }
+    .HeavyHr {
+      border-color: themed('hrDarkColour');
+    }
+
+    .SocialIcon {
+      width: 20px;
+      fill: themed('socialIconColour');
+    }
+  }
+
+  .button {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px 32px;
+    display: inline-block;
+    transition: color 0.1s, border-color 0.1s, background-color 0.1s;
+
+    @include themify($themes) {
+      border: themed('buttonBorder');
+      color: themed('buttonTextColor'); 
+      border-color: themed('buttonTextColor');
+      background-color: themed('buttonColor');
+      text-transform: themed('buttonTextTransform');
+
+      &:hover {
+        color: themed('buttonTextHoverColor'); 
+        border-color: themed('buttonTextHoverColor');
+        background-color: themed('buttonHoverColor');
+      }
+    }
+
+  } 
+}
 
 html {
   font-family: 'Roboto', sans-serif;
-  color: $DarkTextColour;
 }
-a {
-  color: $DarkTextColour;
+a:hover {
+  color: red;
+}
+.ActiveLink {
+  color: red;
 }
 .BrandTitle {
   // padding-top: 20px;
@@ -16,25 +89,18 @@ a {
 .date {
   vertical-align: bottom;
 }
-.ThinHr {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.HeavyHr {
-  border-color: $DarkTextColour;
-}
 .ThinNav {
   line-height: 50%;
 }
 .Date {
   padding-left: 1rem;
 }
-.Live {
+.SocialBlock {
   padding-right: 1rem;
 }
 .Article {
   //background: rgb(250,250,250);
-}
+} 
 .ThinText {
   font-weight: 300;
 }
@@ -48,10 +114,6 @@ a {
   width: 30px;
   // margin-bottom: 5px;
 }
-.SocialIcon {
-  width: 20px;
-  fill: black;
-}
 #Instagram:hover{
   fill: #D63086;
 }
@@ -60,6 +122,12 @@ a {
 }
 #Twitter:hover{
   fill: #1DA1F2;
+}
+#LightIcon {
+  height: 20px;
+}
+#DarkIcon {
+  height: 20px;
 }
 .Chart {
   display: none;
