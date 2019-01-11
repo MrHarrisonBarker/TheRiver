@@ -1,26 +1,18 @@
 $themes: (
   light: (
-    backgroundColour: #fff,
+    backgroundColour: rgb(255, 255, 255),
     textColour: rgb(33, 33, 33),
     hrColour: rgb(199, 199, 199),
     hrDarkColour: rgb(33, 33, 33),
     socialIconColour: black,
-    buttonTextColor: #408bbd,
-    buttonTextTransform: none,
-    buttonTextHoverColor: #61b0e7,
-    buttonColor: #fff,
-    buttonBorder: 2px solid #fff,
+    cardBackgroundColour: rgb(255, 255, 255)
   ),
   dark: (
     backgroundColour: rgb(33, 33, 33),
-    textColour: #ddd,
-    hrColour: #ddd,
-    hrDarkColour: #fff,
-    socialIconColour: #fff,
-    buttonTextColor: #aaa,
-    buttonTextTransform: uppercase,
-    buttonTextHoverColor: #ddd,
-    buttonColor: #333,
-    buttonBorder: 1px solid #aaa,
+    textColour: rgb(221, 221, 221),
+    hrColour: rgb(221, 221, 221),
+    hrDarkColour: rgb(255, 255, 255),
+    socialIconColour: rgb(255, 255, 255),
+    cardBackgroundColour: rgb(0, 0, 0)
   ),
 );

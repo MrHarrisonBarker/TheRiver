@@ -1,60 +1,88 @@
 {
-  "Stories": [
-    {
+  "Stories": [{
+      "id": "1",
       "@type": "NewsArticle",
-      "headline": "Article headline",
-      "alternativeHeadline": "An alternative headline, if need be",
-      "dateline": "London, UK",
+      "headline": "Five Poker Predictions for 2019",
+      "alternativeHeadline": "",
+      "dateline": "January 06, 2019",
       "image": [
-        "http://www.example.com/image1.jpg",
-        "http://www.example.com/image2.jpg"
+        "https://pnimg.net/w/articles/4/5c3/0d0afbcfb2.jpg"
       ],
-      "datePublished": "2015-09-05",
-      "description": "An article that will hopefully be seen in Google News",
-      "articleBody": "Paste the whole mess of code in here",
-      "author": "Harrison Barker"
+      "articleBody": "1. Someone With Under $1 Million in Cashes Wins the PSPC 2. The WSOP Has its Rio Swan Song 3. WPT Events Featuring Delayed Final Tables Have an Attendance Dip 4. Dylan Linde Wins a Bracelet and WSOP Player of the Year 5. You Can Find a Short Deck Game Somewhere",
+      "author": "Mo Nuwwarah",
+      "link": "https://www.pokernews.com/news/2019/01/five-poker-predictions-for-2019-33030.htm"
     },
     {
+      "id": "2",
       "@type": "NewsArticle",
-      "headline": "Another Article headline",
-      "alternativeHeadline": "Another An alternative headline, if need be",
-      "dateline": "London, UK",
+      "headline": "Scott Stewart Eliminated in 17th Place",
+      "dateline": "January 09, 2019",
       "image": [
-        "http://www.example.com/image1.jpg",
-        "http://www.example.com/image2.jpg"
+        "https://pnimg.net/lrep/1984/41/b9d3c9fab18.jpg"
       ],
-      "datePublished": "2017-09-05",
-      "description": "Another An article that will hopefully be seen in Google News",
-      "articleBody": "Another Paste the whole mess of code in here",
-      "author": "Harrison Barker"
+      "articleBody": "$202,400",
+      "author": "mnuwwarah",
+      "link": "https://uk.pokernews.com/tours/psca/2019-pca/25k-pspc/chips.206074.htm"
     },
     {
+      "id": "3",
       "@type": "NewsArticle",
-      "headline": "AnotherAnother Article headline",
-      "alternativeHeadline": "AnotherAnother An alternative headline, if need be",
-      "dateline": "London, UK",
+      "headline": "WSOP Announces $1,000 Mini Main Event",
+      "dateline": "January 09, 2019",
       "image": [
-        "http://www.example.com/image1.jpg",
-        "http://www.example.com/image2.jpg"
+        "https://pnimg.net/w/articles/4/5c3/652dd32945.jpg"
       ],
-      "datePublished": "2017-09-05",
-      "description": "AnotherAnother An article that will hopefully be seen in Google News",
-      "articleBody": "AnotherAnother Paste the whole mess of code in here",
-      "author": "Harrison Barker"
+      "articleBody": "A new addition to the schedule is the $1,000 buy-in Mini Main Event. Taking place just two days before the start of the $10,000 buy-in actual Main Event, the Mini Main Event takes place Monday, July 1 and Tuesday, July 2. Similar to its bigger namesake counter-part, the Mini Main Event will see players start with 60,000 in tournament chips and features the same blind structure but now with 30- instead of 120-minute levels.",
+      "author": "Frank Op de Woerd",
+      "link": "https://www.pokernews.com/news/2019/01/wsop-announces-1000-mini-main-event-33062.htm"
     },
     {
+      "id": "4",
       "@type": "NewsArticle",
-      "headline": "AlsoAnotherAnother Article headline",
-      "alternativeHeadline": "AlsoAnotherAnother An alternative headline, if need be",
-      "dateline": "London, UK",
+      "headline": "3 New Year's Poker Resolutions You Can Keep",
+      "dateline": "January 02, 2019",
       "image": [
-        "http://www.example.com/image1.jpg",
-        "http://www.example.com/image2.jpg"
+        "https://pnimg.net/w/articles/4/5c2/cd4cea064e.jpg"
       ],
-      "datePublished": "2017-09-05",
-      "description": "AlsoAnotherAnother An article that will hopefully be seen in Google News",
-      "articleBody": "AlsoAnotherAnother Paste the whole mess of code in here",
-      "author": "Harrison Barker"
+      "articleBody": "",
+      "author": "Ashley Adams",
+      "link": "https://www.pokernews.com/strategy/3-new-years-poker-resolutions-you-can-keep-33007.htm"
+    },
+    {
+      "id": "5",
+      "@type": "NewsArticle",
+      "headline": "Isaac Haxton Wins 2018 Super High Roller Bowl V",
+      "dateline": "December 19, 2019",
+      "image": [
+        "https://media.cardplayer.com/assets/000/025/154/IKE_FEAT.JPG"
+      ],
+      "articleBody": "Isaac Haxton emerged victorious from a field of 36 entries to win the 2018 Super High Roller Bowl V, earning the biggest payday of his tournament career: $3,672,000. As a result of this huge win, the 33-year-old poker pro increased his lifetime live tournament earnings to more than $23.6 million and climbed into 12th place on poker’s all-time money list.",
+      "author": "Erik Fast",
+      "link": "https://www.cardplayer.com/poker-news/23489-isaac-haxton-wins-2018-super-high-roller-bowl-v"
+    },
+    {
+      "id": "6",
+      "@type": "NewsArticle",
+      "headline": "Ivey Returns to Tournament Poker",
+      "dateline": "December 27, 2018",
+      "image": [
+        "https://pnimg.net/w/articles-attachments/1/5c1/cb62fa287b.jpg"
+      ],
+      "articleBody": "Year after year, things change in poker as they change in any other industry, but one thing that remains constant is the superstar status of Phil Ivey. Ever since he first appeared as a precocious 26 year old on the World Series of Poker episodes that launched Chris Moneymaker to stardom and helped power the poker boom, Ivey has remained a subject of fascination, envy, and speculation.",
+      "author": "Mo Nuwwarah",
+      "link": "https://www.pokernews.com/news/2018/12/top-10-stories-of-2018-6-ivey-poker-borgata-32827.htm"
+    },
+    {
+      "id": "7",
+      "@type": "NewsArticle",
+      "headline": "Top Five Poker Players of 2018",
+      "dateline": "January 09, 2019",
+      "image": [
+        "https://pokerfuse.com/site_media/media/uploads/news/justin_bonomo-winner-photo.jpg"
+      ],
+      "articleBody": "",
+      "author": "Phil Stevens",
+      "link": "https://pokerfuse.com/news/live-and-online/210304-top-five-poker-players-2018/"
     }
   ]
 }

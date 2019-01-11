@@ -33,11 +33,41 @@
     <script id="article-template" type="text/x-handlebars-template">
         {{#each Stories}}
     <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
-        <div class="shadow-sm p-3 my-3 bg-light">
-            <p>{{this}}</p>
-            <h4>{{headline}}</h4>
+        <img src="{{image}}" class="img img-fluid">
+        <div class="shadow-sm p-3 mb-3 Card mt-0">
+            <h4 class="ThinText">{{headline}}</h4>
+            <small>{{dateline}}</small>
+            <hr class="ThinHr">
             <small>{{author}}</small>
-            <p>{{description}}</p>
+
+
+            
+            <button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#Modal{{id}}" aria-hidden="true">
+                More Info
+            </button>
+
+            <div class="modal fade" id="Modal{{id}}" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">{{headline}}</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="clear-fix">
+                            <small class="float-left">{{dateline}}</small>
+                            <small class="float-right">{{author}}</small><br>
+                        </div>
+                        <hr class="ThinHr">
+                        <p>
+                            {{articleBody}}
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
     </div>
     {{/each}}
@@ -72,9 +102,6 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="players.html">Players</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="tournaments.html">Tournaments</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="links.html">Links</a>
@@ -115,6 +142,8 @@
                     </div>
                 </div>
                 <div class="row content-placeholder"></div>
+
+
 
             </div>
         </div>

@@ -1,6 +1,6 @@
 .theme-light .app-container {
   color: #212121;
-  background-color: #fff;
+  background-color: white;
 }
 .theme-light .app-container a {
   color: #212121;
@@ -17,65 +17,54 @@
   width: 20px;
   fill: black;
 }
+.theme-light .app-container .Card {
+  background-color: white;
+}
+.theme-light .app-container a:hover {
+  color: red;
+}
+.theme-light .app-container .ActiveLink {
+  color: red;
+}
 .theme-dark .app-container {
-  color: #ddd;
+  color: #dddddd;
   background-color: #212121;
 }
 .theme-dark .app-container a {
-  color: #ddd;
+  color: #dddddd;
 }
 .theme-dark .app-container .ThinHr {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  border-color: #ddd;
+  border-color: #dddddd;
 }
 .theme-dark .app-container .HeavyHr {
-  border-color: #fff;
+  border-color: white;
 }
 .theme-dark .app-container .SocialIcon {
   width: 20px;
-  fill: #fff;
+  fill: white;
 }
-.app-container .button {
-  cursor: pointer;
-  border-radius: 5px;
-  padding: 15px 32px;
-  display: inline-block;
-  transition: color 0.1s, border-color 0.1s, background-color 0.1s;
+.theme-dark .app-container .Card {
+  background-color: black;
 }
-.theme-light .app-container .button {
-  border: 2px solid #fff;
-  color: #408bbd;
-  border-color: #408bbd;
-  background-color: #fff;
-  text-transform: none;
+.theme-dark .app-container a:hover {
+  color: red;
 }
-.theme-light .app-container .button:hover {
-  color: #61b0e7;
-  border-color: #61b0e7;
-}
-.theme-dark .app-container .button {
-  border: 1px solid #aaa;
-  color: #aaa;
-  border-color: #aaa;
-  background-color: #333;
-  text-transform: uppercase;
-}
-.theme-dark .app-container .button:hover {
-  color: #ddd;
-  border-color: #ddd;
+.theme-dark .app-container .ActiveLink {
+  color: red;
 }
 
 html {
   font-family: "Roboto", sans-serif;
 }
 
-a:hover {
-  color: red;
+.app-container {
+  height: 100%;
 }
 
-.ActiveLink {
-  color: red;
+.Max {
+  height: 100%;
 }
 
 .BrandTitle {
@@ -143,14 +132,9 @@ a:hover {
   width: 64px;
 }
 
-#footer {
-  bottom: 0;
-  width: 100%;
-  position: absolute;
-  height: 54px;
-}
-#footer .FooterBlock {
-  margin: 10px 0;
+.SubmitButton {
+  background-color: #ff3535;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
