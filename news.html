@@ -40,11 +40,9 @@
             <hr class="ThinHr">
             <small>{{author}}</small>
 
-
-            
-            <button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#Modal{{id}}" aria-hidden="true">
+            <a class="float-right" data-toggle="modal" data-target="#Modal{{id}}" aria-hidden="true">
                 More Info
-            </button>
+            </a>
 
             <div class="modal fade" id="Modal{{id}}" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
@@ -56,14 +54,29 @@
                     </button>
                     </div>
                     <div class="modal-body">
-                        <div class="clear-fix">
-                            <small class="float-left">{{dateline}}</small>
-                            <small class="float-right">{{author}}</small><br>
+                        <div class="row">
+                            <div class="col">
+                                <div class="clear-fix">
+                                    <small class="float-left">{{dateline}}</small>
+                                    <small class="float-right">{{author}}</small><br>
+                                </div>
+                            </div>
+                            
                         </div>
                         <hr class="ThinHr">
-                        <p>
-                            {{articleBody}}
-                        </p>
+                        <div class="row">
+                            <div class="col">
+                                <h4 class="ThinText">{{headline}}</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>
+                                    {{articleBody}}
+                                </p>
+                                <a href="{{link}}">Link</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 </div>

@@ -120,8 +120,16 @@ html {
   height: 20px;
 }
 
+#LightIcon:hover {
+  filter: invert(0.5) sepia(1) saturate(20) hue-rotate(25deg);
+}
+
 #DarkIcon {
   height: 20px;
+}
+
+#DarkIcon:hover {
+  filter: invert(0.5) sepia(1) saturate(40) hue-rotate(230deg);
 }
 
 .Chart {
