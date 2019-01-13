@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="Max">
+<html lang="en" class="">
 
 <head>
     <!-- Required meta tags -->
@@ -33,29 +33,29 @@
     <script src="js/BlindsApp.js"></script>
 </head>
 
-<body class="Max">
+<body>
 
     <script id="Blinds-Template" type="text/x-handlebars-template">
         <hr class="ThinHr">
-    <table class="table table-bordered ">
-        <thead>
-        <tr>
-            <th scope="col" class="ThinText">Blind</th>
-            <th scope="col" class="ThinText">Small</th>
-            <th scope="col" class="ThinText">Big</th>
-        </tr>
-        </thead>
-        <tbody>
-        {{#each Blind}}
+        <table class="table table-bordered ">
+            <thead>
             <tr>
-                <th>{{i}}</th>
-                <td>{{Small}}</td>
-                <td>{{Big}}</td>
+                <th scope="col" class="ThinText">Blind</th>
+                <th scope="col" class="ThinText">Small</th>
+                <th scope="col" class="ThinText">Big</th>
             </tr>
-        {{/each}}
-        </tbody>
-    </table>
-</script>
+            </thead>
+            <tbody>
+            {{#each Blind}}
+                <tr>
+                    <th>{{i}}</th>
+                    <td>{{Small}}</td>
+                    <td>{{Big}}</td>
+                </tr>
+            {{/each}}
+            </tbody>
+        </table>
+    </script>
     <main id="app-root" class="theme-light" style="height: 100%;">
         <div class="app-container">
             <div class="container">
@@ -183,7 +183,7 @@
 
     <div id="footer" class="footer">
         <div class="container">
-            <p class="text-muted text-center">The River &copy; Copyright 2018-2019 Harrison Barker</p>
+            <p class="Muted text-center">The River &copy; Copyright 2018-2019 Harrison Barker</p>
         </div>
     </div>
 
