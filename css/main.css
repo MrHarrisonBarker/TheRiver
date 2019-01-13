@@ -22,6 +22,7 @@
 }
 .theme-light .app-container a:hover {
   color: red;
+  text-decoration: none;
 }
 .theme-light .app-container .ActiveLink {
   color: red;
@@ -50,6 +51,7 @@
 }
 .theme-dark .app-container a:hover {
   color: red;
+  text-decoration: none;
 }
 .theme-dark .app-container .ActiveLink {
   color: red;
@@ -57,6 +59,12 @@
 
 html {
   font-family: "Roboto", sans-serif;
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
 }
 
 .app-container {
@@ -70,6 +78,10 @@ html {
 .BrandTitle {
   text-align: center;
   margin: auto auto auto auto;
+}
+
+#Logo {
+  height: 80px;
 }
 
 .date {
@@ -143,6 +155,20 @@ html {
 .SubmitButton {
   background-color: #ff3535;
   color: white;
+}
+
+.theme-dark .VectorImage {
+  filter: invert(1);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  line-height: 60px;
+  /* Vertically center the text there */
 }
 
 /*# sourceMappingURL=main.css.map */
