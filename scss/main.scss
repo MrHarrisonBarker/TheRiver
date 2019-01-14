@@ -66,11 +66,11 @@ $DarkTextColour: rgb(33, 33, 33);
     }
 
     .close {
-      color: white;
+      color: themed('modalColour');
     }
 
     .close:hover {
-      color: white;
+      color: themed('modalColour');
     }
 
     .modal-content {
